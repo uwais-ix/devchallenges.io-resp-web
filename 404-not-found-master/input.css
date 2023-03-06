@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Space Mono';
+  }
+
+  h1 {
+    font-family: 'Inconsolata';
+  }
+
+  footer {
+    font-family: 'Montserrat';
+  }
+}
