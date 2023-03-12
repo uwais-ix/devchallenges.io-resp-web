@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <!-- css -->
+    <link
+      rel="stylesheet"
+      href="dist/tailwind.css"
+    />
+
+    <!-- fonts -->
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <!-- main page container -->
+    <div
+      id="page-container"
+      class="mx-auto flex flex-col max-w-xs md:max-w-7xl min-h-screen max-h-screen justify-between"
+    >
+      <main>
+        <!-- nav -->
+        <nav class="my-5">
+          <a
+            href="#"
+            class="uppercase font-inconsolatas font-bold text-2xl md:px-4 lg:px-2"
+            >404 Not Found</a
+          >
+        </nav>
+
+        <!-- content + footer -->
+        <div class="mt-16">
+          <!-- content -->
+          <section
+            id="content"
+            class="flex flex-col md:flex-row md:space-x-12 items-center justify-center"
+          >
+            <!-- image div -->
+            <div class="mx-auto md:w-1/2">
+              <img
+                src="Scarecrow.png"
+                alt="Scarecrow Image"
+                class="hover:scale-110 hover:bg-slate-400 transition-all duration-150 rounded-md"
+              />
+            </div>
+
+            <!-- text + button -->
+            <div class="font-spacemono my-14 md:max-w-lg">
+              <h1
+                class="font-bold text-5xl leading-snug md:leading-normal md:text-6xl"
+              >
+                I have bad news for you
+              </h1>
+              <p class="text-lg my-7 md:text-2xl md:my-9 md:max-w-md">
+                The page you are looking for might be removed or is temporarily
+                unavailable
+              </p>
+
+              <button
+                class="uppercase bg-[#333] px-11 py-4 text-slate-50 mt-7 hover:bg-opacity-80 transition-opacity duration-150"
+              >
+                Back To Homepage
+              </button>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <!-- footer -->
+      <footer class="text-center font-sans text-xs font-light py-4">
+        created by
+        <a
+          href="https://github.com/uwais-ix"
+          class="inline-block font-normal hover:text-slate-400 transition-all duration-150"
+        >
+          uwais-ix
+        </a>
+        - devChallenges.io
+      </footer>
+    </div>
+  </body>
+</html>
