@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <link
+      rel="stylesheet"
+      href="dist/tailwind.css"
+    />
+
+    <!-- fonts -->
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- material icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <script
+      src="script.js"
+      defer
+    ></script>
+
+    <title>Interior Consultant</title>
+  </head>
+  <body class="bg-primary text-white container mx-auto px-3 flex flex-col">
+    <nav
+      class="flex justify-between items-center w-full relative mt-5 md:mt-12"
+    >
+      <h1
+        class="uppercase font-extralight text-sm p-2 border-white border-[1px] md:text-base"
+      >
+        This Interior
+      </h1>
+
+      <!-- mobile menu -->
+      <div
+        class="md:hidden absolute right-3 top-1.5"
+        id="menu"
+      >
+        <div id="menu-icon">
+          <span class="material-symbols-outlined"> menu </span>
+        </div>
+
+        <div
+          id="close-icon"
+          class="hidden"
+        >
+          <span class="material-symbols-outlined"> close </span>
+        </div>
+      </div>
+
+      <!--nav links-->
+      <div
+        class="hidden opacity-0 md:flex z-10 space-y-8 md:space-y-0 md:space-x-20 items-center justify-center md:opacity-100 text-[18px] font-monserrat font-medium"
+        id="nav"
+      >
+        <div class="group">
+          <div class="">Home</div>
+          <div
+            class="mx-1 mt-2 border-b-2 border-white opacity-0 group-hover:opacity-100 duration-500"
+          ></div>
+        </div>
+
+        <div class="group">
+          <div class="">Collection</div>
+          <div
+            class="mx-1 mt-2 border-b-2 border-white opacity-0 group-hover:opacity-100 duration-500"
+          ></div>
+        </div>
+        <div class="group">
+          <div class="">About</div>
+          <div
+            class="mx-1 mt-2 border-b-2 border-white opacity-0 group-hover:opacity-100 duration-500"
+          ></div>
+        </div>
+        <div class="group">
+          <div class="">Contact</div>
+          <div
+            class="mx-1 mt-2 border-b-2 border-white opacity-0 group-hover:opacity-100 duration-500"
+          ></div>
+        </div>
+      </div>
+    </nav>
+
+    <main
+      class="flex flex-col md:flex-row md:space-x-16 mt-9 md:mt-36 md:justify-center md:items-center"
+    >
+      <!-- title + read more -->
+      <div>
+        <h1 class="font-medium text-4xl md:text-5xl">Modern interior</h1>
+        <p
+          class="font-normal text-sm max-w-[250px] mt-6 md:text-2xl md:mt-10 md:max-w-sm"
+        >
+          A full-Service residential & commercial interior design and staging
+          company offering professional organizing & eco-services
+        </p>
+
+        <div
+          class="flex font-bold text-sm mt-6 md:text-xl md:mt-12 md:items-center hover:scale-105 transition duration-300"
+        >
+          <div>Read more</div>
+          <div class="ml-2 md:translate-y-[20%] font-bold">
+            <span class="material-symbols-outlined"> trending_flat </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- img + card -->
+      <div class="mt-4 md:w-8/12 relative">
+        <div class="peer hover:scale-110 transtion duration-500">
+          <img
+            src="img/photo1.png"
+            alt=""
+          />
+        </div>
+
+        <div
+          class="flex flex-col space-y-4 absolute w-3/4 bg-primary -bottom-[30%] right-[8%] p-4 shadow-lg md:w-1/2 md:-bottom-[12%] opacity-95 transition duration-500 peer-hover:opacity-0"
+        >
+          <div class="flex space-x-3 items-center">
+            <img
+              src="img/photo2.png"
+              alt=""
+              class="rounded-full w-[16%] object-contain"
+            />
+
+            <div class="flex flex-col font-medium space-y-1 md:space-y-3">
+              <span class="text-xs md:text-sm">Aliza Webber</span>
+              <span class="text-[10px] text-slate-500 md:text-xs"
+                >Interior designer</span
+              >
+            </div>
+          </div>
+          <h1 class="w-4/6 font-bold text-lg md:text-2xl md:max-w-[275px]">
+            Designed in 2020 by Aliza Webber
+          </h1>
+        </div>
+      </div>
+    </main>
+
+    <footer
+      class="text-center font-sans text-xs font-light py-4 md:mt-4 md:text-sm absolute bottom-0 left-1/2 -translate-x-1/2"
+    >
+      created by
+      <a
+        href="https://github.com/uwais-ix"
+        class="inline-block font-normal hover:text-slate-400 transition-all duration-150"
+      >
+        uwais-ix
+      </a>
+      - devChallenges.io
+    </footer>
+  </body>
+</html>
