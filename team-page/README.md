@@ -1,4 +1,4 @@
-<h1 align="center">{Team Page}</h1>
+<h1 align="center">Team Page</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{https://uwais-ix.github.io/devchallenges.io-resp-web/team-page}">
+    <a href="https://uwais-ix.github.io/devchallenges.io-resp-web/team-page">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{https://github.com/uwais-ix/devchallenges.io-resp-web/tree/main/team-page}">
+    <a href="https://github.com/uwais-ix/devchallenges.io-resp-web/tree/main/team-page">
       Solution
     </a>
     <span> | </span>

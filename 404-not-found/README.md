@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{https://uwais-ix.github.io/devchallenges.io-resp-web/404-not-found/}">
+    <a href="https://uwais-ix.github.io/devchallenges.io-resp-web/404-not-found/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{https://github.com/uwais-ix/devchallenges.io-resp-web/tree/main/404-not-found}">
+    <a href="https://github.com/uwais-ix/devchallenges.io-resp-web/tree/main/404-not-found">
       Solution
     </a>
     <span> | </span>
